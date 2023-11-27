@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        body{
+    margin: 0px;
+}
+.contenedor{
+    display :flex;
+    flex-direction: row;
+    
+}
+.barralateral{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.contenido{
+    border: 1px solid black;
+    flex-grow: 4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.perfil{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+.nuevochat{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+.juanita{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.alberto{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.ignacio{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.cristian{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.mariajose{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.gonzalo{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.juanpablo{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.magdalena{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+    </style> 
+</head>
+<body>
+ <div class="contenedor">
+     <div class="barralateral" >
+         <div class="perfil">
+             <div class="display:flex">
+             <img src="assest/img/maria.jpg" style="width: 50px; height: 80px; margin-right: 8px; border-radius: 100%;" alt="no disponible">
+             </div>
+             <div>
+             <p>Maria</p>
+             <p style="color:blue">Activo ahora</p>
+             </div>
+             <div>
+             <img src="assest/img/icono_msj.jpg" width="50px" alt="no disponible">
+             </div>
+             <div >
+             <img src="assest/img/hamburg.png" width="30px" alt="no disponible">
+             </div>  
+         </div>
+
+         <div class="nuevochat">
+             <button style="padding: 8px; background-color: blueviolet; border: 1px solid blueviolet;"> 
+             Nuevo chat
+             </button>
+         </div>
+
+         <div class="contactos">
+              <div class="juanita">
+                <div>
+                 <img src="assest/img/juanita.jpg" style= "width: 80px; height: 80px; margin-right: 8px; border-radius: 100%;" alt="no disponible">
+                </div>
+                <div>
+                 <p>Juanita</p>
+                 <p style="color: blue;">Activo ahora</p>
+                </div>
+               </div>
+
+             <div class="alberto">
+                <div>
+                 <img src="assest/img/alberto.jpg" style="width: 80px; height: 80px; margin-right: 8px;border-radius:100%" alt="no disponible">
+                </div>
+                <div>
+                 <p>Alberto</p>
+                 <p style="color: blue;">Activo ahora</p>
+                </div>
+             </div>
+
+             <div class="ignacio">
+             <div>
+              <img src="assest/img/ignacio.jpg"  style=" width: 80px; height: 80px; margin-right: 8px;border-radius:100%" alt="no disponible">
+             </div>
+             <div>
+              <p>Ignacio</p>
+             <p style="color: red;">Desactivado</p>
+            </div>
+             </div>
+
+             <div class="cristian">
+                <div>
+                <img src="assest/img/cristian.jpg" style="width: 80px; height: 80px; margin-right: 8px;border-radius:100%" alt="no disponible">
+               </div>
+               <div>
+                <p>Cristian</p>
+                <p style="color: blue;">Activo ahora</p>
+             </div>
+             </div>
+
+             <div class="mariajose">
+              <div>
+                <img src="assest/img/maria jose.jpg" style=" width: 80px; height: 80px; margin-right: 8px;border-radius:100%" alt="no disponible">
+             </div>
+                <div>
+                <p>Maria Jose</p>
+                <p style="color: blue;">Activo ahora</p>
+             </div> 
+             </div>
+
+             <div class="gonzalo">
+              <div>
+                <img src="assest/img/gonzalo.jpg" style=" width: 80px; height: 80px; margin-right: 8px;border-radius:100%" alt="no disponible">
+            </div>
+             <div>
+                <p>Gonzalo</p>
+              <p style="color: blue;">Activo ahora</p>
+            </div>
+             </div>
+
+             <div class="juanpablo">
+              <div>
+                <img src="assest/img/juan pablo.jpg" style="width: 80px; height: 80px; margin-right: 8px;border-radius:100%;" alt="no disponible">
+              </div>
+               <div>
+                <p>Juan Pablo</p>
+                <p style="color: red;">Desactivado</p>
+              </div>
+             </div>
+
+             <div class="magdalena"> 
+                <div>
+                <img src="assest/img/magdalena.jpg" style=" width: 80px; height: 80px; margin-right: 8px;border-radius:100%" alt="no disponible">
+              </div>
+             <div>
+                <p>Magdalena</p>
+                <p style="color: blue;">Activo ahora</p>
+              </div>
+             </div>
+
+             
+          </div>
+     </div>
+         <div class="contenido">
+             <div>
+             <img src="assest/img/hand.png" width="400px" alt="no disponible">
+             <h2>Comienza el networking</h2>
+             <p> Presiona el <span style="font-weight: 600;">"Nuevo chat"</span>  para comenzar a crear nuevas </p>
+             <p>redes de contacto para tu empresa o emprendimiento.</p>
+             </div>
+         </div>
+     
+ </div>
+ 
+</body>
+</html>

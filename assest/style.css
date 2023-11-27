@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+.contenedor{
+    display :flex;
+    flex-direction: row;
+    
+}
+.barralateral{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.contenido{
+    border: 1px solid black;
+    flex-grow: 4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.perfil{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+.nuevochat{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+.juanita{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.alberto{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.ignacio{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.cristian{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.mariajose{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.gonzalo{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.juanpablo{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.magdalena{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
